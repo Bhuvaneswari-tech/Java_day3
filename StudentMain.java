@@ -16,6 +16,10 @@ public class StudentMain {
 		
 		stud.displayInfo();
 
+		System.out.println("\nValidation of age");
+		stud.setAge(4);
+		
+		//stud.displayInfo();
 	}
 
 }
