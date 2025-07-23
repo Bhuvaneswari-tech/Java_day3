@@ -36,4 +36,10 @@ public class Student1 extends Person{
 		System.out.println(name+ " is studying.");
 	}
 
+	@Override
+	public void showRole() {
+		System.out.println(name + " is a Student");
+		
+	}
+
 }
